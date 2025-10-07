@@ -1,0 +1,184 @@
+{
+  "infos": {
+    "adress": "Rua José Bianchi, nº 555, <br/> Sala 316, Ed. New Office,  <br/> Ribeirão Preto - SP,  <br/> CEP: 14096-730",
+    "adressSecundario": "A_Definir",
+    "expediente": "Segunda a sexta-feira: <br/> 8h às 18h",
+    "expedienteSecundario": "A_Definir",
+    "obs": "A_Definir"
+  },
+  "navbar": {
+    "menuItems": {
+      "home": "Início",
+      "service": "Serviços",
+      "about": "Sobre Nós",
+      "faq": "Perguntas Frequentes",
+      "maps": "Mapa"
+    },
+    "ctaButtonText": "Contato",
+    "ctaButtonTextResponsive": "Contato"
+  },
+  "hero": {
+    "miniTag": "ESCRITÓRIO DE ADVOCACIA EM RIBEIRÃO PRETO - SP",
+    "title": "Quando o problema é sério, <span class=\"text-primary font-bold\">o Direito age</span>",
+    "subtitle": "Cada caso é uma história — e o seu pode ser o próximo a virar um exemplo de vitória e superação jurídica.",
+    "ctaButtonText": "Quero meu caso resolvido",
+    "obsHero": {
+      "text": "Atendimento presencial e online para todo Brasil"
+    }
+  },
+  "features": {
+    "miniTag": "Áreas de Atuação",
+    "title": "Defendendo seus direitos com excelência",
+    "subtitle": "Atuação estratégica em diversas áreas do Direito, garantindo segurança, clareza e resultados em cada caso.",
+    "card1": {
+      "title": "Direito Imobiliário",
+      "subtitle": "Segurança jurídica em negociações e contratos de imóveis.",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    },
+    "card2": {
+      "title": "Direito de Família e Sucessões",
+      "subtitle": "Cuidado e equilíbrio nas relações familiares e heranças.",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    },
+    "card3": {
+      "title": "Direito Civil",
+      "subtitle": "Soluções jurídicas para relações e conflitos do dia a dia.",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    },
+    "card4": {
+      "title": "Consultoria Jurídica",
+      "subtitle": "Orientação preventiva e estratégica para decisões seguras.",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir",
+      "servicesButton": "A_Definir"
+    },
+    "card5": {
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    },
+    "card6": {
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    }
+  },
+  "maps": {
+    "minitag": "LOCALIZAÇÃO",
+    "title": "Encontre-nos em Ribeirão Preto - SP",
+    "subtitle": "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
+    "embedsrc": "A_Definir"
+  },
+  "about": {
+    "imagem": {
+      "alt": "imagem about"
+    },
+    "miniTag": "Sobre o Escritório Perez Advocacia",
+    "title": "Nossa trajetória",
+    "subtitle": "Comprometidos com a verdade, atuamos com técnica, estratégia e propósito claro.",
+    "buttonModalLabelAbout": "Continuar lendo",
+    "paragraph": "Desde a fundação, o Escritório Perez Advocacia nasceu com o propósito de unir conhecimento jurídico e visão humana. Cada caso é conduzido com atenção genuína e foco em resultados concretos.",
+    "modal": "Desde a fundação, o Escritório Perez Advocacia nasceu com o propósito de unir conhecimento jurídico e visão humana. Cada caso é conduzido com atenção genuína e foco em resultados concretos. <br/><br/> Nosso compromisso é oferecer soluções eficientes, sempre baseadas em transparência, ética e técnica. Acreditamos que o Direito deve ser acessível e estratégico, servindo como instrumento de transformação real. <br/><br/> Com uma atuação moderna e dinâmica, buscamos constantemente inovação e excelência, mantendo a confiança de nossos clientes como o alicerce de cada conquista. <br/><br/>",
+    "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
+    "ctaButtonText": "Entre em contato",
+    "aboutSocial": {
+      "miniTag": "REDES SOCIAIS",
+      "title": "Conecte-se agora mesmo",
+      "subtitle": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "labelInstagram": "Siga-me no Instagram",
+      "labelFacebook": "Siga-me no Facebook",
+      "labelLinkedin": "Siga-me no Linkedin",
+      "labelX": "Siga-me no X"
+    }
+  },
+  "news": {
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
+    "description": "A_Definir"
+  },
+  "ctaSecondary": {
+    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
+    "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
+    "titleDireita": "WhatsApp",
+    "ctaButtonText": "Entre em Contato"
+  },
+  "steps": {
+    "miniTag": "PASSO A PASSO",
+    "title": "Como funciona nosso atendimento?",
+    "subtitle": "",
+    "cards": {
+      "card1": {
+        "stepNumber": 1,
+        "cardTitle": "Consulta inicial",
+        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
+      },
+      "card2": {
+        "stepNumber": 2,
+        "cardTitle": "Análise detalhada",
+        "cardDescription": "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa."
+      },
+      "card3": {
+        "stepNumber": 3,
+        "cardTitle": "Elaboração da estratégia",
+        "cardDescription": "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz."
+      },
+      "card4": {
+        "stepNumber": 4,
+        "cardTitle": "Ação legal",
+        "cardDescription": "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso."
+      }
+    }
+  },
+  "blog": {
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
+    "labelCards": "A_Definir",
+    "label": "Clique aqui para ver todas as matérias",
+    "blogLink": "A_Definir"
+  },
+  "faq": {
+    "miniTag": "TIRE SUAS DÚVIDAS",
+    "title": "Perguntas Frequentes",
+    "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+    "questions": {
+      "question1": {
+        "question": "Como posso contratar seus serviços?",
+        "answer": "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos."
+      },
+      "question2": {
+        "question": "Qual é o prazo médio para resolução de um caso?",
+        "answer": "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial."
+      },
+      "question3": {
+        "question": "Quais documentos devo levar para a consulta?",
+        "answer": "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência."
+      },
+      "question4": {
+        "question": "Vocês oferecem serviços de consultoria preventiva?",
+        "answer": "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal."
+      }
+    },
+    "paragraph": "Clique aqui caso tenha mais dúvidas"
+  },
+  "footer": {
+    "copyrightLine": "{{year}} - {{name}} - Todos os direitos reservados",
+    "footerDivulgacaoText": "Gostaria de ter um site como este? Clique aqui",
+    "midSectionName": "Até mais",
+    "footerText": "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
+    "footerSocialText": "A_Definir",
+    "footerNavegacaoText": "NAVEGAÇÃO"
+  }
+}
