@@ -36,8 +36,8 @@ export default function FeaturesWithIcons({ colorMode }) {
         colorMode="dark"
       />
       <SectionWrapper>
-        <div className="flex flex-col items-center w-full tablet1:flex-row tablet1:justify-between desktop1:gap-x-0 desktop1:px-0">
-          <div className="col1 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center">
+        <div className="flex flex-col items-start w-full tablet1:flex-row tablet1:justify-between desktop1:gap-x-0 desktop1:px-0">
+          <div className="col1 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center ">
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={content.texts.features.card1.icon}
@@ -67,8 +67,8 @@ export default function FeaturesWithIcons({ colorMode }) {
             />
           </MotionDivDownToUp>
 
-          <div className="col3 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center">
-            <MotionDivDownToUp>
+          <div className="col3 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-between items-center">
+            <MotionDivDownToUp className="h-auto">
               <IconFeatureCard
                 icon={content.texts.features.card3.icon}
                 title={t("features.card3.title")}
@@ -82,7 +82,6 @@ export default function FeaturesWithIcons({ colorMode }) {
                 icon={content.texts.features.card4.icon}
                 title={t("features.card4.title")}
                 paragraph={t("features.card4.subtitle")}
-                className={textClass}
                 colorMode={colorMode}
               />
             </MotionDivDownToUp>
