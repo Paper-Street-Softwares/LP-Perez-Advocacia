@@ -32,7 +32,7 @@ export default function IconFeatureCard(props) {
         {title}
       </h1>
       <p
-        className={`text-center opacity-70 font-mainFont w-[90%] pb-4 ${textClass}`}
+        className={`text-center opacity-70 font-secondFont w-[90%] pb-4 ${textClass}`}
       >
         {paragraph}
       </p>

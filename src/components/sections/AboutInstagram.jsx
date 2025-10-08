@@ -40,7 +40,6 @@ export default function AboutInstagram({ socialPrint, colorMode }) {
               className={`text-center`}
               miniTitle={t("about.aboutSocial.miniTag")}
               sectionHeaderTitle={t("about.aboutSocial.title")}
-              sectionHeaderSubtitle={t("about.aboutSocial.subtitle")}
               type="article"
               titleColorSet={textClass}
               subtitleColorSet={textClass}
