@@ -85,8 +85,13 @@ export default function ListGroupSocial({
               onClick={(e) => {
                 e.preventDefault();
                 const el = document.getElementById(id);
-                if (el)
-                  el.scrollIntoView({ behavior: "smooth", block: "start" });
+                if (el) {
+                  const yOffset = -90;
+                  const y =
+                    el.getBoundingClientRect().top + window.scrollY + yOffset;
+
+                  window.scrollTo({ top: y, behavior: "smooth" });
+                }
               }}
             >
               <span
