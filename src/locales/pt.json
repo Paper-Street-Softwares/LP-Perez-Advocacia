@@ -141,6 +141,11 @@
       }
     }
   },
+  "testimonials": {
+    "minitag": "O que dizem nossos clientes",
+    "title": "Vozes que confirmam nossa essência",
+    "subtitle": "Histórias reais de pessoas que vivenciaram o cuidado, a empatia e o comprometimento que guiam nosso trabalho."
+  },
   "blog": {
     "miniTag": "A_Definir",
     "title": "A_Definir",
