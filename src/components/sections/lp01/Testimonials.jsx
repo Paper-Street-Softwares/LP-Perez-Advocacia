@@ -71,7 +71,7 @@ export default function Testimonial({ colorMode }) {
           Ela representa uma nova forma de exercer a advocacia: com alma, com
           ética e com amor ao que faz. E é esse perfil de profissional que busco
           em todas as áreas da minha vida. Gratidão Dra Luena, do escritório
-          Perez Advocacia, por atravessar comigo esse caminho. ""
+          Perez Advocacia, por atravessar comigo esse caminho. "
         </p>
       ),
       author: (
@@ -102,7 +102,7 @@ export default function Testimonial({ colorMode }) {
           <br />
           Mas, posso afirmar, que nenhum foi tão ético, profissional e
           humanístico como esse. Estou extremamente satisfeito com os serviços
-          que me foram prestados. ""
+          que me foram prestados. "
         </p>
       ),
       author: (
