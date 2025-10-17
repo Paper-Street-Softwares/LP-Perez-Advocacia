@@ -25,7 +25,9 @@ export default function Testimonial({ colorMode }) {
           colorMode === "light" ? "bg-gray-100" : "bg-primary"
         }`}
       >
-        <p className={`italic text-paragraph1 desktop2:text-paragraph2 mb-4 ${textColor}`}>
+        <p
+          className={`italic text-paragraph1 desktop2:text-paragraph2 mb-4 ${textColor}`}
+        >
           {testimonial.text}
         </p>
         <hr className="opacity-20 border-black" />
@@ -38,7 +40,7 @@ export default function Testimonial({ colorMode }) {
 
   // Configuração responsiva
   const responsiveOptions = [
-    { breakpoint: "2500px", numVisible: 2, numScroll: 2 },
+    { breakpoint: "2500px", numVisible: 1, numScroll: 1 },
     { breakpoint: "1199px", numVisible: 1, numScroll: 1 },
     { breakpoint: "767px", numVisible: 1, numScroll: 1 },
     { breakpoint: "575px", numVisible: 1, numScroll: 1 },
@@ -49,10 +51,11 @@ export default function Testimonial({ colorMode }) {
       id: 1,
       text: (
         <p>
-          Desde o início do processo de curatela da minha mãe até o inventário,
-          encontrei nela muito mais do que uma advogada. Encontrei um verdadeiro
-          apoio humano. Sua atuação ultrapassa a técnica jurídica — ela acolhe,
-          escuta, orienta e caminha junto com uma sensibilidade rara.
+          " Desde o início do processo de curatela da minha mãe até o
+          inventário, encontrei nela muito mais do que uma advogada. Encontrei
+          um verdadeiro apoio humano. Sua atuação ultrapassa a técnica jurídica
+          — ela acolhe, escuta, orienta e caminha junto com uma sensibilidade
+          rara.
           <br /> <br />
           Em um dos momentos mais delicados da minha vida, ela esteve ao meu
           lado com uma presença firme e amorosa. Olhou para cada detalhe com
@@ -68,7 +71,7 @@ export default function Testimonial({ colorMode }) {
           Ela representa uma nova forma de exercer a advocacia: com alma, com
           ética e com amor ao que faz. E é esse perfil de profissional que busco
           em todas as áreas da minha vida. Gratidão Dra Luena, do escritório
-          Perez Advocacia, por atravessar comigo esse caminho.
+          Perez Advocacia, por atravessar comigo esse caminho. ""
         </p>
       ),
       author: (
@@ -82,7 +85,7 @@ export default function Testimonial({ colorMode }) {
       id: 2,
       text: (
         <p>
-          Quando precisei de auxílio jurídico de confiança e especializado me
+          " Quando precisei de auxílio jurídico de confiança e especializado me
           indicaram o escritório com ótimas referências.
           <br /> <br />
           Fiquei impressionado com o profissionalismo, a neutralidade e o
@@ -99,7 +102,7 @@ export default function Testimonial({ colorMode }) {
           <br />
           Mas, posso afirmar, que nenhum foi tão ético, profissional e
           humanístico como esse. Estou extremamente satisfeito com os serviços
-          que me foram prestados.
+          que me foram prestados. ""
         </p>
       ),
       author: (
