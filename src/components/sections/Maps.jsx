@@ -17,12 +17,12 @@ export default function Maps({ colorMode }) {
   const bgClasses = {
     dark: "bg-bgFixedDark",
     light: "bg-bgFixedLight",
-    default: "bg-bgSectionDark",
+    default: "squares",
   };
   const textClasses = {
     dark: "text-white",
     light: "text-black",
-    default: "text-white",
+    default: "text-black",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const titleColor = textClasses[colorMode] || textClasses.default;
