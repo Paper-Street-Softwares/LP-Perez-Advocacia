@@ -133,6 +133,7 @@ export default function Testimonial({ colorMode }) {
               value={Testimonials}
               itemTemplate={itemTemplate}
               responsiveOptions={responsiveOptions}
+              autoplayInterval={5000}
               circular
               showNavigators
               showIndicators={false}
