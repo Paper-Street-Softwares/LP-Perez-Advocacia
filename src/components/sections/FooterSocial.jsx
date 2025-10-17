@@ -30,8 +30,8 @@ export default function FooterSocial({ colorMode, addres, obs, mode }) {
       textColor = "text-black";
       break;
     default:
-      footerBackground = "bg-white";
-      textColor = "text-secondary";
+      footerBackground = "bg-bgSectionDark";
+      textColor = "text-white";
       break;
   }
 

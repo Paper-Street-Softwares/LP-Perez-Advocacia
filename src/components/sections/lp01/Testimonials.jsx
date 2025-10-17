@@ -10,9 +10,9 @@ export default function Testimonial({ colorMode }) {
   const { t } = useTranslation();
 
   // Lógica de cores conforme o modo
-  const bgColor = colorMode === "light" ? "bg-white" : "bg-secondary";
-  const textColor = colorMode === "light" ? "text-black" : "text-white";
-  const arrowColor = colorMode === "light" ? "#000000" : "#FFFFFF";
+  const bgColor = colorMode === "light" ? "bg-white" : "squares";
+  const textColor = colorMode === "light" ? "text-black" : "text-black";
+  const arrowColor = colorMode === "light" ? "#000000" : "#000000";
 
   // Template de item do carousel
   const itemTemplate = (testimonial) => (
@@ -22,13 +22,13 @@ export default function Testimonial({ colorMode }) {
     >
       <div
         className={`rounded-2xl shadow-lg p-3 w-[80%] text-center flex flex-col justify-between ${
-          colorMode === "light" ? "bg-gray-100" : "bg-[#1F1F1F]"
+          colorMode === "light" ? "bg-gray-100" : "bg-primary"
         }`}
       >
-        <p className={`italic text-paragraph1 mb-4 ${textColor}`}>
+        <p className={`italic text-paragraph1 desktop2:text-paragraph2 mb-4 ${textColor}`}>
           {testimonial.text}
         </p>
-        <hr className="opacity-20" />
+        <hr className="opacity-20 border-black" />
         <span className={`font-semibold text-sm mt-4 ${textColor}`}>
           {testimonial.author}
         </span>
@@ -74,7 +74,7 @@ export default function Testimonial({ colorMode }) {
       author: (
         <h6 className="flex flex-col">
           Dra. Denise Freitas Barata Murakami{" "}
-          <span className="text-white/70 text-paragraph2">Psicóloga</span>
+          <span className="text-black/70 text-paragraph2">Psicóloga</span>
         </h6>
       ),
     },
@@ -105,7 +105,7 @@ export default function Testimonial({ colorMode }) {
       author: (
         <h6 className="flex flex-col">
           Rafael Tavares{" "}
-          <span className="text-white/70 text-paragraph2">Agente federal</span>
+          <span className="text-black/70 text-paragraph2">Agente federal</span>
         </h6>
       ),
     },
@@ -117,7 +117,7 @@ export default function Testimonial({ colorMode }) {
         <div className="w-full">
           <SectionHeader
             className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
-            miniTitle={t("testimonials.miniTag")}
+            miniTitle={t("testimonials.minitag")}
             sectionHeaderTitle={t("testimonials.title")}
             sectionHeaderSubtitle={t("testimonials.subtitle")}
             titleColorSet={textColor}
