@@ -161,7 +161,7 @@ export default function Testimonial({ colorMode }) {
 
   return (
     <SectionArea className={`${bgColor}`} paddingtop={true}>
-      <SectionWrapper className="flex flex-col gap-[40px] items-center">
+      <SectionWrapper className="flex flex-col items-center">
         <SectionHeader
           className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
           miniTitle={t("testimonials.minitag")}
